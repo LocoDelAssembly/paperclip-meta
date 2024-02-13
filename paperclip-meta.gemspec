@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "kt-paperclip", ">= 7.0"
 
-  s.add_development_dependency "bundler", "~> 2.5"
+  s.add_development_dependency "bundler", "~> 2.0"
   s.add_development_dependency "rake", "~> 13.1"
   s.add_development_dependency "mocha", "~> 2.1"
   s.add_development_dependency "activerecord", "~> 7.1"
