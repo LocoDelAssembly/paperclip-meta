@@ -13,17 +13,17 @@ Gem::Specification.new do |s|
   s.files         = Dir["LICENSE.txt", "README.md", "lib/**/*"]
   s.require_paths = ["lib"]
 
-  s.required_ruby_version = ">= 2.2.2"
+  s.required_ruby_version = ">= 3.2"
 
-  s.add_dependency "paperclip", ">= 5.0"
+  s.add_dependency "kt-paperclip", ">= 7.0"
 
-  s.add_development_dependency "bundler", "~> 1.13"
-  s.add_development_dependency "rake", "~> 12.0"
-  s.add_development_dependency "mocha", "~> 1.2"
-  s.add_development_dependency "activerecord", "~> 5.0"
-  s.add_development_dependency "sqlite3", ">= 1.3.10"
-  s.add_development_dependency "delayed_paperclip", "~> 3.0"
-  s.add_development_dependency "activesupport", "~> 5.0"
-  s.add_development_dependency "activejob", "~> 5.0"
-  s.add_development_dependency "railties", "~> 5.0"
+  s.add_development_dependency "bundler", "~> 2.5"
+  s.add_development_dependency "rake", "~> 13.1"
+  s.add_development_dependency "mocha", "~> 2.1"
+  s.add_development_dependency "activerecord", "~> 7.1"
+  s.add_development_dependency "sqlite3", ">= 1.7.2"
+  s.add_development_dependency "kt-delayed_paperclip", "~> 3.1"
+  s.add_development_dependency "activesupport", "~> 7.1"
+  s.add_development_dependency "activejob", "~> 7.1"
+  s.add_development_dependency "railties", "~> 7.1"
 end
